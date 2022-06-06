@@ -10,6 +10,7 @@
 **E-mail:** <lifeandvideo@gmail.com>
 **GitHub:** [iavadim](https://github.com/iavadim)
 **Telegram:** [@changelife13](https://t.me/changelife13)
+**Discord:** Vadim (@iavadim)
 
 # About me
 
@@ -28,6 +29,18 @@ I like to learn new things, want to become a front-end web developer.
 - Git, GitHub
 - VS Code
 - Photoshop
+
+# Code example
+
+---
+
+This is a solved problem when registering on Codewars:
+
+```
+function multiply(a, b) {
+  return a * b
+}
+```
 
 # Education
 
