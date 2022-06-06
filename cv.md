@@ -2,6 +2,8 @@
 
 ## Juniour Front-end Developer
 
+![photo](https://sun9-38.userapi.com/s/v1/ig2/xLOdX6jbUH-CqX9h5KNvKoaUTSyGEzUXLomIFx91l1pq0IaoqR8BitTJ9zHiaZ6IcYP2cEb5HlbcqGlKef3l18yi.jpg?size=300x450&quality=95&type=album)
+
 # Contact me
 
 **Address:** Minsk, Belarus  
