@@ -39,6 +39,15 @@ function multiply(a, b) {
 - Belarusian National Technical University
   - Mechanical engineering
 
+# Experience
+
+1. CV: <https://iavadim.github.io/rsschool-cv/cv>
+
+# Courses
+
+1. Youtube channel [WebDesign Master](https://www.youtube.com/channel/UC7enHM_oJRYJOnyJrcRzwbg)
+1. Complete Javascript course by [Bogdan Stashchuk](https://www.udemy.com/course/javascript-ru/)
+
 # Languages
 
 - English - Pre-Intermediate
