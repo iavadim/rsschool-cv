@@ -1,10 +1,132 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-  </head>
-  <body></body>
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="css/style.css">
+  <link rel="icon" href="img/favicon.ico">
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;500;700&display=swap" rel="stylesheet">
+  <title>CV</title>
+</head>
+
+<body>
+  <header class="header">
+    <div class="container">
+      <nav class="nav">
+        <ul class="nav-list">
+          <li class="nav-item"><a href="#contact-me" class="nav-link">Contact me</a></li>
+          <li class="nav-item"><a href="#about-me" class="nav-link">About me</a></li>
+          <li class="nav-item"><a href="#skills" class="nav-link">Skills</a></li>
+          <li class="nav-item"><a href="#education" class="nav-link">Education</a></li>
+          <li class="nav-item"><a href="#experience" class="nav-link">Experience</a></li>
+          <li class="nav-item"><a href="#courses" class="nav-link">Courses</a></li>
+          <li class="nav-item"><a href="#code" class="nav-link">Code</a></li>
+          <li class="nav-item"><a href="#languages" class="nav-link">Languages</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+  <main class="main">
+    <div class="container main-container">
+      <section class="section section-profile" id="profile">
+        <img src="img/photo.jpg" alt="Kharkavets Vadzim" class="section-profile-img">
+        <div class="section-profile-description">
+          <h1 class="section-title-name">Kharkavets Vadzim</h1>
+          <h3 class="section-subtitle">Juniour Front-end Developer</h3>
+        </div>
+      </section>
+      <section class="section section-contacts" id="contact-me">
+        <h2 class="section-title">Contact me</h2>
+        <ul>
+          <li>E-mail: <a href="mailto:lifeandvideo@gmail.com" target="_blank">lifeandvideo@gmail.com</a></li>
+          <li>GitHub: <a href="https://github.com/iavadim" target="_blank">iavadim</a></li>
+          <li>Telegram: <a href="https://t.me/changelife13" target="_blank">@changelife13</a></li>
+          <li>Discord: <a href="https://discord.com/users/vadim#4310" target="_blank">Vadim (@iavadim)</a></li>
+          <li>Address: Minsk, Belarus</li>
+        </ul>
+      </section>
+      <section class="section" id="skills">
+        <h2 class="section-title">Skills</h2>
+        <ul>
+          <li>HTML, CSS</li>
+          <li>Javascript</li>
+          <li>Git, GitHub</li>
+          <li>VS Code</li>
+          <li>Photoshop</li>
+        </ul>
+      </section>
+      <section class="section" id="about-me">
+        <h2 class="section-title">About me</h2>
+        <p>I have 5 years of freelancing experience, including online school promotion, social media advertising
+          setup,
+          website development, web design, video editing.</p>
+        <p>I like to learn new things, want to become a front-end web developer.</p>
+      </section>
+      <section class="section" id="education">
+        <h2 class="section-title">Education</h2>
+        <ul>
+          <li>
+            Belarusian National Technical University
+            <ul>
+              <li>Mechanical engineering</li>
+            </ul>
+          </li>
+          <li>
+            RS school
+            <ul>
+              <li>Front-end Web Developer</li>
+            </ul>
+          </li>
+        </ul>
+      </section>
+      <section class="section" id="experience">
+        <h2 class="section-title">Experience</h2>
+        <ul>
+          <li><a href="https://iavadim.github.io/rsschool-cv/cv" target="_blank">CV</a></li>
+        </ul>
+      </section>
+      <section class="section" id="courses">
+        <h2 class="section-title">Courses</h2>
+        <ul>
+          <li>Youtube channel <a href="https://www.youtube.com/channel/UC7enHM_oJRYJOnyJrcRzwbg"
+              target="_blank">WebDesign Master</a>
+          </li>
+          <li>Complete Javascript course by <a href="https://www.udemy.com/course/javascript-ru/" target="_blank">Bogdan
+              Stashchuk</a>
+          </li>
+        </ul>
+      </section>
+      <section class="section" id="code">
+        <h2 class="section-title">Code</h2>
+        <p>This is a solved problem when registering on Codewars:</p>
+        <code>
+            <pre>
+            <span class="js-keyword">function</span> <span class="js-function">multiply</span>(<span class="js-function-parameters">a</span>, <span class="js-function-parameters">b</span>) {
+              <span class="js-keyword">return</span> <span class="js-function-parameters">a</span> * <span class="js-function-parameters">b</span>;
+            }
+            </pre>
+          </code>
+      </section>
+      <section class="section" id="languages">
+        <h2 class="section-title">Languages</h2>
+        <ul>
+          <li>English - Pre-Intermediate</li>
+          <li>Russian - Native</li>
+        </ul>
+      </section>
+    </div>
+  </main>
+  <footer class="footer">
+    <div class="container">
+      <a href="https://github.com/iavadim" target="_blank">GitHub</a>
+      <a href="https://rs.school/js/" target="_blank"><img class="rsschool-logo"
+          src="https://rs.school/images/rs_school_js.svg" alt="RS School"></a>
+      <span>2022</span>
+    </div>
+  </footer>
+</body>
+
 </html>
