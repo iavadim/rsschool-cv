@@ -1,0 +1,142 @@
+* {
+  box-sizing: border-box;
+}
+:root {
+  --main-color: #fbbc59;
+  --accent-color: #e7c2b8;
+}
+html {
+  scroll-behavior: smooth;
+}
+a {
+  text-decoration: none;
+  color: var(--accent-color);
+  transition: text-decoration 0.5s;
+}
+a:hover {
+  text-decoration: underline;
+}
+body {
+  font-family: 'Roboto', sans-serif;
+  min-height: 100vh;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  font-size: 18px;
+  font-weight: 300;
+  line-height: 1.5;
+  color: #f3ebeb;
+  background-color: #000;
+}
+.container {
+  max-width: 1440px;
+  margin: 0 auto;
+}
+.main-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+.section {
+  width: 50%;
+  padding: 20px 50px 0;
+}
+.nav-list {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  list-style: none;
+  padding-left: 0;
+  margin: 0;
+}
+.nav-link {
+  padding: 0 20px;
+  line-height: 50px;
+  text-decoration: none;
+  font-size: 18px;
+  font-weight: 300;
+  color: #e7c2b8;
+  transition: color 0.5s;
+}
+.nav-link:hover {
+  color: #fff;
+  text-decoration: none;
+}
+.section-profile {
+  display: flex;
+  width: 100%;
+}
+.section-profile-description {
+  margin: 100px 50px;
+}
+.section-profile-img {
+  border-radius: 15px;
+}
+.section-title-name {
+  font-size: 44px;
+  margin-bottom: 16px;
+  position: relative;
+}
+.section-title-name::after {
+  content: '';
+  position: absolute;
+  bottom: -3px;
+  left: 0;
+  width: 150px;
+  height: 2px;
+  background-color: var(--main-color);
+}
+.section-subtitle {
+  font-size: 20px;
+  margin-top: 0;
+  font-weight: 300;
+}
+.section-title {
+  background-color: var(--main-color);
+  color: #000;
+  padding: 5px 0 5px 28px;
+  border-radius: 5px;
+}
+.section-contacts ul {
+  list-style: none;
+  margin-left: -12px;
+}
+.section-profile-description {
+  text-transform: uppercase;
+}
+.js-keyword {
+  color: #b45ea4;
+}
+.js-function {
+  color: #78bb65;
+}
+.js-function-parameters {
+  color: #e7ce56;
+}
+.footer {
+  background-color: #d8d4d4;
+  display: inline-block;
+  padding: 20px 0;
+  color: #000;
+  font-size: 16px;
+}
+.footer .container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.rsschool-logo {
+  width: 80px;
+}
+.footer a,
+.footer span {
+  padding: 0 40px;
+  color: #000;
+}
+@media (max-width: 768px) {
+  .section {
+    width: 100%;
+  }
+}
